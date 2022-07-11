@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "CondPro-Bold";
+    src: local("CondPro-Bold"),
+         /* Если не получилось, загрузит woff2 */
+         url("/assets/fonts/pfdintextcondpro-bold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/assets/fonts/pfdintextcondpro-bold.woff") format("woff");
+}
+@font-face {
+    font-family: "CondPro-Regular";
+    src: local("CondPro-Regular"),
+         /* Если не получилось, загрузит woff2 */
+         url("/assets/fonts/pfdintextcondpro-regular.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/assets/fonts/pfdintextcondpro-regular.woff") format("woff");
+}
+@font-face {
+    font-family: "CondPro-Medium";
+    src: local("CondPro-Medium"),
+         /* Если не получилось, загрузит woff2 */
+         url("/assets/fonts/pfdintextcondpro-medium.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/assets/fonts/pfdintextcondpro-medium.woff") format("woff");
+}
